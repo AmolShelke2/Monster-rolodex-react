@@ -8,20 +8,31 @@ class App extends Component {
     super();
 
     this.state = {
-      string: 'Lets learn react',
+      monsters: [
+        {
+          name: 'Frankerstein',
+          id: 'acc1',
+        },
+
+        {
+          name: 'Dracula',
+          id: 'acc2',
+        },
+
+        {
+          name: 'Zombie',
+          id: 'acc3',
+        },
+      ],
     };
   }
 
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>{this.state.string}</p>
-          <button onClick={() => this.setState({ string: 'Hello Amol' })}>
-            Change text
-          </button>
-        </header>
+        {this.state.monsters.map((monster) => (
+          <h1>{monster.name}</h1>
+        ))}
       </div>
     );
   }
