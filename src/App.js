@@ -29,3 +29,5 @@ class App extends Component {
 }
 
 export default App;
+
+// SearchField state.
