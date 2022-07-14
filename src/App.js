@@ -45,5 +45,3 @@ class App extends Component {
 }
 
 export default App;
-
-// Learning React and React DOM
