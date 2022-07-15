@@ -45,3 +45,5 @@ class App extends Component {
 }
 
 export default App;
+
+// Learning lifecycle method
