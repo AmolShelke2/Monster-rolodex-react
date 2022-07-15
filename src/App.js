@@ -46,4 +46,4 @@ class App extends Component {
 
 export default App;
 
-// Learning lifecycle method
+// Learnt React Lifecycles introduction
