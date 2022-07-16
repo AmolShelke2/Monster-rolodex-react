@@ -13,9 +13,12 @@ class App extends Component {
       monsters: [],
       searchField: '',
     };
+
+    console.log('Constructor');
   }
 
   componentDidMount() {
+    console.log('ComponentDidMount');
     fetch('https://jsonplaceholder.typicode.com/users')
       .then((response) => response.json())
       .then((users) => this.setState({ monsters: users }));
@@ -45,5 +48,3 @@ class App extends Component {
 }
 
 export default App;
-
-// React Lifecycle methods: Mounting
