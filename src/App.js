@@ -48,3 +48,5 @@ class App extends Component {
 }
 
 export default App;
+
+// Done with react basics.
