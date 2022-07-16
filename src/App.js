@@ -46,4 +46,4 @@ class App extends Component {
 
 export default App;
 
-// Learnt React Lifecycles introduction
+// React Lifecycle methods: Mounting
